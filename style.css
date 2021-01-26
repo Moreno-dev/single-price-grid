@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
-
 :root {
     --Cyan: hsl(179, 62%, 43%);
     --Bright-Cyan: hsl(179, 65%, 60%);
@@ -17,7 +16,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-
 
     body {
         height: 100%;
@@ -48,7 +46,6 @@
     body {
         height: 100vh;
     }
-
 
     .card {
         width: 50%;
@@ -133,7 +130,10 @@ p {
 
 .card--left {
     background-color: var(--Cyan);
+}
 
+.inline {
+    display: inline;
 }
 
 .card--right {
@@ -152,7 +152,6 @@ button {
     border-radius: 5px;
     box-shadow: 3px 3px 5px black;
     width: 100%;
-
 }
 
 footer {
