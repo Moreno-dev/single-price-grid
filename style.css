@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+:root {
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Cyan: hsl(179, 65%, 60%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla';
+    font-size: 16px;
+}
+
+body {
+    width: 100vw;
+    background-color: var(--Light-Gray);
+    /* height: 50vw; */
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20vh 25vw;
+}
+
+
+header {
+    background-color: white;
+    padding: 2.5rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--Cyan);
+    margin: 10px 0 ;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--Bright-Yellow);
+    margin: 10px 0;
+}
+
+p {
+    color: var(--Grayish-Blue);
+    font-weight: 400;
+}
+
+.cards {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.card p, .card h1, .card h2{
+    color: white;
+    margin-top: 1.5rem;
+}
+
+.card--left {
+    background-color: var(--Cyan);
+    border-bottom-left-radius: 20px;
+}
+
+.card--right {
+    background-color: var(--Bright-Cyan);
+    border-bottom-right-radius: 20px;
+}
+
+button {
+    background-color: var(--Bright-Yellow);
+    border: none;
+    color: white;
+    padding: 0.7rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black ;
+
+}
+
+footer {
+    width: 100%;
+}
